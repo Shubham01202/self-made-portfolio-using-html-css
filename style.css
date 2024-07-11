@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+  }
+
+  nav {
+    background-color: #05445E;
+    padding: 1em;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    color: white;
+  }
+  
+  section {
+    padding: 2em;
+    margin-bottom: 20px;
+    background-color: #05445E;
+    border: 1px solid #189AB4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .home > h1,.home > h2,.home > p {
+    /* float: left; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+  }
+
+
+  h1,h2{
+    color: white;
+    margin: 0;
+  }
+  span{
+    color: red;
+  }
+  #home p{
+    color: white;
+  }
+    img{
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 50px;
+   margin-bottom: 10px;
+
+  }
+
+  .skills> h2{
+    color: #D4F1F4;
+  }
+  .skills li{
+    color: white;
+  }
+
+  .goal{
+    padding: 2em;
+    margin-bottom: 20px;
+    background-color: #05445E;
+    border: 1px solid #189AB4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .goal>h2{
+    color: #D4F1F4;
+  }
+  .goal p{
+    color: white;
+  }
+
+  .about p{
+    color: white;
+  }
+
+  footer {
+    background-color: #05445E;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    margin: 0;
+  }
